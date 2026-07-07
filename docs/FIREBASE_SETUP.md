@@ -94,3 +94,14 @@ Set di `src/infrastructure/firebase/config.ts` jika ingin connect ke emulator sa
 | `auth/invalid-api-key` | Cek `EXPO_PUBLIC_FIREBASE_API_KEY` |
 | Permission denied di Firestore | Deploy rules (`firebase deploy --only firestore:rules`) — pastikan ada rule `recurring_transactions` setelah Phase 5 |
 | Index required | Deploy `firestore.indexes.json` atau buat index dari link error di console |
+| Login gagal di Vercel | Tambah domain `*.vercel.app` di Authentication → **Authorized domains** |
+
+## 9. Authorized domains (deploy Vercel)
+
+Setelah deploy ke Vercel, tambahkan URL production di:
+
+**Firebase Console → Authentication → Settings → Authorized domains**
+
+Contoh: `money-tracker-abc123.vercel.app`
+
+Tanpa ini, auth akan error `auth/unauthorized-domain` di live demo.

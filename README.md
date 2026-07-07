@@ -2,9 +2,12 @@
 
 > **Cross-platform personal finance app** — Expo · TypeScript · Firebase · React Native Web
 
+**Repository:** [github.com/EvosROAR/money-tracker](https://github.com/EvosROAR/money-tracker)  
+**Live demo:** _Deploy Vercel — lihat [docs/VERCEL_DEPLOY.md](./docs/VERCEL_DEPLOY.md)_
+
 Aplikasi pencatat keuangan pribadi dengan sinkronisasi cloud, multi-mata uang, anggaran, transaksi berulang, dan keamanan PIN/biometrik. Berjalan di **Web**, **Android**, dan **iOS**.
 
-**Status:** Portfolio-ready · Deploy Vercel — rencana berikutnya
+**Status:** Portfolio-ready · GitHub published · Vercel deploy berikutnya
 
 ---
 
@@ -237,16 +240,17 @@ Screen → Hook (React Query) → Repository → Firestore
 
 ---
 
-## Deploy (nanti)
+## Deploy
 
-> Deploy Vercel/EAS disiapkan tapi belum dilakukan — fokus portfolio dulu. Konfigurasi sudah ada (`vercel.json`, `eas.json`).
+### Web (Vercel) — live demo
 
-### Web (Vercel) — ketika siap
-
-1. Push repo ke GitHub
-2. Import project di [Vercel](https://vercel.com) — `vercel.json` sudah dikonfigurasi
+1. ✅ Repo sudah di GitHub
+2. Import project di [Vercel](https://vercel.com) — panduan lengkap: [docs/VERCEL_DEPLOY.md](./docs/VERCEL_DEPLOY.md)
 3. Set environment variables Firebase (sama seperti `.env`)
-4. Build command: `npm run build:web` → output `dist/`
+4. Tambah domain Vercel di Firebase → **Authorized domains**
+5. Deploy → update link **Live demo** di README
+
+Build lokal: `npm run build:web` → output `dist/` (`vercel.json` sudah dikonfigurasi)
 
 ### Mobile (EAS)
 
