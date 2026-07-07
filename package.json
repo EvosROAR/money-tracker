@@ -1,22 +1,53 @@
 {
-  "name": "money-tracker",
-  "version": "1.0.0",
+  "description": "Cross-platform personal finance app — Expo, TypeScript, Firebase. Portfolio project.",
   "main": "index.ts",
   "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
+    "@hookform/resolvers": "^5.4.0",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-navigation/bottom-tabs": "^7.18.7",
+    "@react-navigation/native": "^7.3.7",
+    "@react-navigation/native-stack": "^7.17.9",
+    "@tanstack/react-query": "^5.101.2",
+    "axios": "^1.18.1",
+    "babel-preset-expo": "~57.0.0",
+    "date-fns": "^4.4.0",
     "expo": "~57.0.2",
+    "expo-constants": "~57.0.3",
+    "expo-font": "~57.0.0",
+    "expo-local-authentication": "~57.0.0",
+    "expo-localization": "~57.0.0",
+    "expo-notifications": "^0.32.17",
     "expo-status-bar": "~57.0.0",
+    "firebase": "^12.15.0",
+    "i18next": "^26.3.4",
     "react": "19.2.3",
-    "react-native": "0.86.0"
+    "react-dom": "19.2.3",
+    "react-hook-form": "^7.81.0",
+    "react-i18next": "^17.0.8",
+    "react-native": "0.86.0",
+    "react-native-gesture-handler": "~2.32.0",
+    "react-native-reanimated": "4.5.0",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "4.25.2",
+    "react-native-web": "^0.21.2",
+    "zod": "^4.4.3",
+    "zustand": "^5.0.14"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.14",
     "@types/react": "~19.2.2",
+    "jest": "^29.7.0",
+    "jest-expo": "~57.0.0",
     "typescript": "~6.0.3"
   },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "test": "jest",
+    "build:web": "expo export --platform web"
   },
   "private": true
 }
