@@ -36,7 +36,7 @@ export const scheduleDailyReminder = async (hour: number, minute = 0): Promise<v
   await Notifications.scheduleNotificationAsync({
     identifier: REMINDER_ID,
     content: {
-      title: 'Money Tracker',
+      title: 'PocketLedger',
       body: 'Jangan lupa catat pengeluaran hari ini 💰',
     },
     trigger: {

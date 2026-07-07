@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Money Tracker",
+    "name": "PocketLedger",
     "slug": "money-tracker",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,6 +24,8 @@
     },
     "platforms": ["ios", "android", "web"],
     "web": {
+      "name": "PocketLedger",
+      "shortName": "PocketLedger",
       "favicon": "./assets/favicon.png",
       "bundler": "metro",
       "backgroundColor": "#0F1117"

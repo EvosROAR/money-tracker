@@ -60,7 +60,7 @@ export const ReportsScreen = () => {
       const url = URL.createObjectURL(blob);
       const anchor = document.createElement('a');
       anchor.href = url;
-      anchor.download = `money-tracker-report-${formatMonthKey(month)}.json`;
+      anchor.download = `pocketledger-report-${formatMonthKey(month)}.json`;
       anchor.click();
       URL.revokeObjectURL(url);
     }

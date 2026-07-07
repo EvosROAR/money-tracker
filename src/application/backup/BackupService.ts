@@ -67,7 +67,7 @@ export const downloadBackupJson = (data: BackupData): void => {
   const anchor = document.createElement('a');
   const datePart = data.exportedAt.slice(0, 10);
   anchor.href = url;
-  anchor.download = `money-tracker-backup-${datePart}.json`;
+  anchor.download = `pocketledger-backup-${datePart}.json`;
   anchor.click();
   URL.revokeObjectURL(url);
 };

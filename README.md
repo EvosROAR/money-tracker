@@ -1,4 +1,4 @@
-# Money Tracker
+# PocketLedger
 
 Aplikasi pencatat keuangan pribadi yang jalan di web dan mobile dari satu codebase. Data disinkronkan lewat Firebase, dengan dukungan anggaran per kategori, transaksi berulang, multi-mata uang, dan kunci PIN.
 
