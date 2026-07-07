@@ -3,11 +3,11 @@
 > **Cross-platform personal finance app** — Expo · TypeScript · Firebase · React Native Web
 
 **Repository:** [github.com/EvosROAR/money-tracker](https://github.com/EvosROAR/money-tracker)  
-**Live demo:** _Deploy Vercel — lihat [docs/VERCEL_DEPLOY.md]([./docs/VERCEL_DEPLOY.md](https://money-tracker-pearl-eight.vercel.app/))_
+**Live demo:** [money-tracker-pearl-eight.vercel.app](https://money-tracker-pearl-eight.vercel.app)
 
 Aplikasi pencatat keuangan pribadi dengan sinkronisasi cloud, multi-mata uang, anggaran, transaksi berulang, dan keamanan PIN/biometrik. Berjalan di **Web**, **Android**, dan **iOS**.
 
-**Status:** Portfolio-ready · GitHub published · Vercel deploy berikutnya
+**Status:** Portfolio-ready · GitHub published · [Live on Vercel](https://money-tracker-pearl-eight.vercel.app)
 
 ---
 
